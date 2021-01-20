@@ -1,11 +1,10 @@
 Use sakila;
 -- 1
-SELECT DISTINCT realease_year
-FROM film
+SELECT DISTINCT release_year 
+FROM film 
 ORDER BY release_year desc;
 -- 2
-SELECT title
-FROM film
+SELECT title FROM film
 WHERE title LIKE '%ARMAGEDDON%';
 -- 3
 SELECT title
